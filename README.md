@@ -213,20 +213,20 @@ turkish-intent-classification/
 ├── data/
 │   └── tr-TR.jsonl              # MASSIVE dataset (Turkish)
 │
-├── notebooks/
-│   └── train_model.ipynb        # Training notebook
-│
 ├── models/
 │   ├── turkish_intent_classifier_keras.keras
 │   ├── tokenizer_keras.pkl
 │   ├── label_encoder_keras.pkl
 │   └── model_config_keras.json
+    └── best_model.keras 
 │
 ├── outputs/
 │   ├── training_history_keras.png
-│   ├── confusion_matrix.png
+│   ├── conf matrix.png
 │   ├── sentence_length_distribution.png
 │   └── intent_distribution.png
+    └── binary-conf-matrix.png
+    └── performance_of_classes.png
 │
 ├── requirements.txt
 └── README.md
